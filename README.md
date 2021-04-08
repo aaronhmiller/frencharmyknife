@@ -1,3 +1,5 @@
-# frencharmyknife
+# French Army Knife (utility image)
 
-https://user-images.githubusercontent.com/223486/113962353-62231e00-97dc-11eb-9856-59c32203f4cb.png
+Based on the old joke:
+
+![french-army-knife](https://user-images.githubusercontent.com/223486/113962353-62231e00-97dc-11eb-9856-59c32203f4cb.png)
