@@ -11,6 +11,7 @@ Image currently ships with:
 - Postgres client
 - dnsutils (for dig and nslookup)
 - traceroute
+- vi
 
 ***
 
