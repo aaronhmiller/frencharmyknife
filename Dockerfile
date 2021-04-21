@@ -6,4 +6,5 @@ apt install httpie -y && \
 apt install traceroute -y && \
 apt install jq -y && \
 apt install postgresql-client -y && \
+apt install redis-tools -y && \
 apt install vim -y

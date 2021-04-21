@@ -9,6 +9,7 @@ Image currently ships with:
 - jq
 - httpie
 - Postgres client
+- Redis client
 - dnsutils (for dig and nslookup)
 - traceroute
 - vi
@@ -17,5 +18,5 @@ Image currently ships with:
 
 * To build use `$ docker build - < DOCKERFILE_HERE`
 * `$ cp Dockerfile-<version> Dockerfile`
-* To tag and build `$ docker build -t kongaaron/frencharmyknife:2.0.0 -t kongaaron/frencharmyknife:latest .` (assumes Dockerfile in current directory)
-* Once you tag and build, to upload `$ docker push kongaaron/frencharmyknife && docker push kongaaron/frencharmyknife:2.0.0`
+* To tag and build `$ docker build -t kongaaron/frencharmyknife:3.0.0 -t kongaaron/frencharmyknife:latest .` (assumes Dockerfile in current directory)
+* Once you tag and build, to upload `$ docker push kongaaron/frencharmyknife && docker push kongaaron/frencharmyknife:3.0.0`
