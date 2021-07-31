@@ -16,7 +16,6 @@ Image currently ships with:
 
 ***
 
-* To build use `$ docker build - < DOCKERFILE_HERE`
-* `$ cp Dockerfile-<version> Dockerfile`
-* To tag and build `$ docker build -t kongaaron/frencharmyknife:3.0.0 -t kongaaron/frencharmyknife:latest .` (assumes Dockerfile in current directory)
-* Once you tag and build, to upload `$ docker push kongaaron/frencharmyknife && docker push kongaaron/frencharmyknife:3.0.0`
+* To build for multiple platforms, start the buildx container: `docker buildx create --use`
+* To tag, build, and push for multiple platforms:`docker buildx build --platform linux/amd64,linux/arm64 -t <your_docker_hub_account>/frencharmyknife --push .`
+
