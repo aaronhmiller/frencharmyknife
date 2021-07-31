@@ -1,0 +1,20 @@
+# Kubernetes deployment for running a container for examining/debugging other pods
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frencharmy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frencharmy
+  template:
+    metadata:
+      labels:
+        app: frencharmy
+    spec:
+      containers:
+        - name: frencharmy
+          image: saltaaron/frencharmyknife
+          command: [ "/bin/sh" , "-c", "tail -f /dev/null" ]
+

@@ -15,7 +15,15 @@ Image currently ships with:
 - vi
 
 ***
+### Running in Kubernetes
 
-* To build for multiple platforms, start the buildx container: `docker buildx create --use`
-* To tag, build, and push for multiple platforms:`docker buildx build --platform linux/amd64,linux/arm64 -t <your_docker_hub_account>/frencharmyknife --push .`
+To run in a Kubernetes cluster, use:
+`kubectl apply -f frencharmy.yaml`
+
+***
+### Building and pushing
+
+To build for multiple platforms, start the buildx container: `docker buildx create --use`
+
+To tag, build, and push for multiple platforms:`docker buildx build --platform linux/amd64,linux/arm64 -t <your_docker_hub_account>/frencharmyknife --push .`
 
