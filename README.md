@@ -21,6 +21,11 @@ To run in a Kubernetes cluster, use:
 `kubectl apply -f frencharmy.yaml`
 
 ***
+### Running standalone
+
+`docker run --entrypoint /bin/bash --rm -it saltaaron/frencharmyknife`
+
+***
 ### Building and pushing
 
 To build for multiple platforms, start the buildx container: `docker buildx create --use`
