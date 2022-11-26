@@ -1,10 +1,10 @@
 FROM ubuntu:latest
 
-RUN apt update && \
-apt install dnsutils -y && \
-apt install httpie -y && \
-apt install traceroute -y && \
-apt install jq -y && \
-apt install postgresql-client -y && \
-apt install redis-tools -y && \
-apt install vim -y
+RUN apt-get update && \
+apt-get install dnsutils -y && \
+apt-get install httpie -y && \
+apt-get install traceroute -y && \
+apt-get install jq -y && \
+apt-get install postgresql-client -y && \
+apt-get install redis-tools -y && \
+apt-get install vim -y
