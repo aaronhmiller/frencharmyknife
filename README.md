@@ -1,3 +1,4 @@
+[![Docker Hub CI](https://github.com/aaronhmiller/frencharmyknife/actions/workflows/hub-cd.yaml/badge.svg)](https://github.com/aaronhmiller/frencharmyknife/actions/workflows/hub-cd.yaml)
 # French Army Knife (utility image)
 
 Based on the old joke:
