@@ -31,5 +31,3 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/frencharmyknife:latest
           platforms: linux/amd64,linux/arm64
-          file: ./app/Dockerfile
-          context: ./app
