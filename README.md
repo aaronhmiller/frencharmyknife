@@ -15,6 +15,7 @@ Image currently ships with:
 - traceroute
 - vi
 - wget
+- less
 
 ***
 ### Running in Kubernetes
