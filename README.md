@@ -14,6 +14,7 @@ Image currently ships with:
 - dnsutils (for dig and nslookup)
 - traceroute
 - vi
+- wget
 
 ***
 ### Running in Kubernetes
