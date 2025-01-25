@@ -1,7 +1,7 @@
 [![Docker Hub CI](https://github.com/aaronhmiller/frencharmyknife/actions/workflows/hub-cd.yaml/badge.svg)](https://github.com/aaronhmiller/frencharmyknife/actions/workflows/hub-cd.yaml)
 # French Army Knife (utility image)
 
-Based on the old joke:
+Based on the old joke (apologies in advance to my sister!):
 
 ![french-army-knife](https://user-images.githubusercontent.com/223486/113962353-62231e00-97dc-11eb-9856-59c32203f4cb.png)
 
